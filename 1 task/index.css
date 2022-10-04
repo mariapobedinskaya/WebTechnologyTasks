@@ -1,0 +1,35 @@
+html{
+    background-color: rgb(241, 222, 210);
+}
+header {
+    background-color: rgb(114, 134, 161);
+}
+.menu li{
+    display: inline;
+    margin-right: 150px;
+}
+section{
+    background-color: rgb(241, 222, 210);
+}
+h1{
+    margin-left: 500px;
+    color: rgb(114, 134, 161);
+}
+h2{
+    margin-left: 500px;
+    color: rgb(114, 134, 161);
+}
+footer{
+    background-color: rgb(114, 134, 161);
+    color: rgb(241, 222, 210);
+}
+.contacts {
+    margin-left: 500px;
+}
+.raz {
+    margin-left: 400px;
+}
+.image2 img{
+    margin-right: 210px;
+    margin-left: 100px;
+}
