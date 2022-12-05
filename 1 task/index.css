@@ -6,17 +6,42 @@ header {
 }
 .menu li{
     display: inline;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+.human {
+    margin-top: 7px;
+    margin-bottom: 4px;
 }
 section{
     background-color: rgb(241, 222, 210);
 }
 h1{
-    margin-left: 500px;
+    display: flex;
+    justify-content: center;
     color: rgb(114, 134, 161);
 }
+.comp {
+    display: flex;
+    justify-content: center;
+}
+.komp {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
 h2{
-    margin-left: 500px;
+    margin-top: 50px;
+    margin-left: 190px;
     color: rgb(114, 134, 161);
 }
 footer{
@@ -24,12 +49,22 @@ footer{
     color: rgb(241, 222, 210);
 }
 .contacts {
-    margin-left: 500px;
+    display: flex;
+    justify-content: center;
 }
 .raz {
-    margin-left: 400px;
+    display: flex;
+    justify-content: center;
 }
-.image2 img{
-    margin-right: 210px;
-    margin-left: 100px;
+.image2 {
+    display: flex;
+    justify-content: center;
+}
+.svyaz {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.but {
+    margin-left: 20px;
 }

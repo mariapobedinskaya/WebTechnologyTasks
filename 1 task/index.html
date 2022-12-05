@@ -9,7 +9,7 @@
 </head>
 <header>
     <ul class = "menu">
-        <li><img src="images/150150.jpeg" width="50" height="50"></li>
+        <li><img class="human" src="images/150150.jpeg" width="50" height="50"></li>
         <li><a href="http://site.ru">О себе</a></li>
         <li><a href="http://site.ru">Резюме</a></li>
         <li><a href="http://site.ru">Портфолио</a></li>
@@ -21,17 +21,21 @@
     <h1>Большой заголовок</h1>
     <p>Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст</p>
     
-    <img src="images/кошка.jpg" width="350" height="150"> 
-    <img src="images/кошка.jpg" width="350" height="150"> 
-    <img src="images/кошка.jpg" width="350" height="150">
+    <p class = "images">
+        <img class = "image" src="images/кошка.jpg" width="350" height="150"> 
+        <img class = "image" src="images/кошка.jpg" width="350" height="150"> 
+        <img class = "image" src="images/кошка.jpg" width="350" height="150">
+    </p>
     
-    <p>Компетенции</p>
-    <ol>
-        <li>Добра и позитива</li>
-        <li>Всем добра и позитива</li>
-        <li>Не всем добра и позитива</li>
-        <li>Нельзя</li>
-    </ol>
+    <p class="komp">Компетенции</p>
+    <div class="comp">
+        <ol>
+            <li>Добра и позитива</li>
+            <li>Всем добра и позитива</li>
+            <li>Не всем добра и позитива</li>
+            <li>Нельзя</li>
+        </ol>
+    </div>
 
     <p class = "image2">
         <img src="images/huh.jpg" width="100" height="100">
@@ -41,14 +45,14 @@
     </section>
     <form>
         <h2>Обратная связь</h2>
-        <p>
-            <input type="text" id="name" placeholder="Имя">
-            <input type="text" id="email" placeholder="E-mail">
-        </p>
-        <p>
-            <textarea name="" id="", cols = "15", rows="2"></textarea>
-            <input type="button" value="Отправить">
-        </p>
+        <div class="svyaz">
+            
+                <input type="text" id="name" placeholder="Имя">
+                <input type="text" id="email" placeholder="E-mail">
+                <textarea name="" id="", cols = "15", rows="2"></textarea>
+                <input class="but" type="button" value="Отправить">
+            
+        </div>
     </form>
 </body>
 <footer id="foot">
