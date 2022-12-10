@@ -1,75 +1,77 @@
-html{
-    background-color: rgb(51, 51, 51);
-}
-header {
-    background-color: rgb(174, 174, 174);
-}
-.menu li{
-    display: inline;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.menu {
-    display: flex;
-    align-items: center;
+@media (max-width: 1399px) {
+    .menu li{
+        display: inline;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
 
-}
-.images {
-    display: flex;
-    justify-content: space-between;
-}
-.human {
-    margin-top: 7px;
-    margin-bottom: 4px;
-}
-section{
-    background-color: rgb(51, 51, 51);
-}
-h1{
-    display: flex;
-    justify-content: center;
-    color: rgb(114, 134, 161);
-}
-.comp {
-    display: flex;
-    justify-content: center;
-}
-.komp {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-h2{
-    margin-top: 50px;
-    margin-left: 190px;
-    color: rgb(174, 174, 174);
-}
-footer{
-    background-color: rgb(174, 174, 174);
-    color: rgb(51, 51, 510);
-}
-.contacts {
-    display: flex;
-    justify-content: center;
-}
-.raz {
-    display: flex;
-    justify-content: center;
-}
-.image2 {
-    display: flex;
-    justify-content: center;
-}
-.svyaz {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 20px;
-}
-.but {
-    margin-left: 20px;
-}
-.tema {
-    margin-left: 30px;
-    margin-bottom: 10px;
-    
-}
+    }
+    .images {
+        display: flex;
+        justify-content: space-between;
+    }
+    .human {
+        margin-top: 7px;
+        margin-bottom: 4px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    .comp {
+        display: flex;
+        justify-content: center;
+    }
+    .komp {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    .contacts {
+        display: flex;
+        justify-content: center;
+    }
+    .raz {
+        display: flex;
+        justify-content: center;
+    }
+    .image2 {
+        display: flex;
+        justify-content: center;
+    }
+    .svyaz {
+        display: flex;
+        justify-content: center;
+    }
+    .but {
+        margin-left: 20px;
+    }
+    .tema {
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .light {
+        color: black;
+        background-color: white;
+    }
+    .dark {
+        color: white;
+        background-color: rgb(50, 50, 50);
+    }
+    .lighthead{
+        color: black;
+        background-color: rgb(123, 128, 111);
+    }
+    .lightfoot{
+        color: black;
+        background-color: rgb(123, 128, 111);
+    }
+  }

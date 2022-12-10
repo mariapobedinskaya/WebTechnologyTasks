@@ -1,9 +1,8 @@
-
-@media (min-width: 1400px) {
+@media (max-width: 770px) {
     .menu li{
         display: inline;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
     .menu {
         display: flex;
@@ -12,7 +11,8 @@
     }
     .images {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        flex-flow: column;
     }
     .human {
         margin-top: 7px;
@@ -32,8 +32,8 @@
         justify-content: center;
     }
     h2{
-        margin-top: 50px;
-        margin-left: 190px;
+        display: flex;
+        justify-content: center;
     }
     .contacts {
         display: flex;
@@ -49,8 +49,7 @@
     }
     .svyaz {
         display: flex;
-        justify-content: flex-start;
-        margin-left: 20px;
+        flex-direction: column;
     }
     .but {
         margin-left: 20px;
@@ -64,7 +63,6 @@
         color: black;
         background-color: white;
     }
-
     .dark {
         color: white;
         background-color: rgb(50, 50, 50);
@@ -77,5 +75,4 @@
         color: black;
         background-color: rgb(123, 128, 111);
     }
-}
-
+  }
